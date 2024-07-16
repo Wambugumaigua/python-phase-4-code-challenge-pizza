@@ -28,7 +28,7 @@ class TestRestaurantPizza:
             db.session.commit()
 
     def test_price_too_low(self):
-        '''requires price between 1 and 30 and fails when price is 0.'''
+       
 
         with app.app_context():
 
@@ -46,7 +46,7 @@ class TestRestaurantPizza:
                 db.session.commit()
 
     def test_price_too_high(self):
-        '''requires price between 1 and 30 and fails when price is 31.'''
+        
 
         with app.app_context():
 
